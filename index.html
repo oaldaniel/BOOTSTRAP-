@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOTSTRAP</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    
+    <nav class="navbar bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo 1.png" alt="BMW" width="120" height="auto">
+          </a>
+
+        <!--Añado el menú de navegación dentro del logotipo-->
+
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">PRODUCTOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">LAVADO PROFESIONAL</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PROTECCIÓN CERÁMICA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">LIMPIEZA INTERIOR</a>
+            </li>
+             </ul>
+
+        </div>
+      </nav>
+
+       <!--Añadimos un slider de fotos -->
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/lavado1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/lavado2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/lavado3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+   
+       <br>
+       <!--primeras 3 columnas con contenido-->
+        
+       <h1>THE KING DETAILING</h1>
+       
+        <div class="container text-center">
+          <div class="row align-items-start">
+            <div class="col">
+              <h2 class="hola">¿Qué es el detailing?</h2>
+              <p>Proceso minucioso de limpieza, restauración y protección de todas las superficies de un vehículo, tanto exteriores como interiores. El objetivo principal del detailing es devolverle al automóvil su aspecto original o incluso mejorar su estado, cuidando cada detalle y utilizando técnicas y productos especializados.
+              </p>
+            </div>
+            <div class="col">
+              <h2 class="hola">¿Cómo afecta el detailing?</h2>
+              <p>
+                ⦿ Apariencia mejorada.
+                <br>
+                ⦿ Protección de la pintura.
+                <br>
+                ⦿ Mantenimiento de valor.
+                <br>
+                ⦿ Condiciones interiores mejoradas.
+                <br>
+                ⦿ Protección contra desgaste.
+              </p>
+            </div>
+            <div class="col">
+             <h2 class="hola">Origen del detailing</h2>
+             <p>Este proceso de limpieza tiene sus orígenes en los Estados Unidos y se encarga de buscar siempre que el vehículo esté en las mejores condiciones posibles. El uso de productos y de técnicas específicas para la limpieza de los coches era algo que se fue implementando y que posteriormente acabó derivando en un paso más: el detailing.
+             </p>
+            </div>
+          </div>
+        </div>
+
+        <!--segundas cuatro columnas con contenido-->
+
+      <br>
+        <h2>Nuestros servicios</h2>
+        <br>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col">
+            <h3 class="nuevo">Pulido de carrocería
+              <br>
+              <i class="bi bi-car-front-fill"></i>
+              <br>
+            </h3>
+            <p>El pulido de carrocería renueva la pintura, eliminando arañazos y mejorando el brillo. Utilizando una pulidora y compuesto adecuados, se restaura la claridad de la pintura, proporcionando un acabado brillante y renovado. 
+            </p>
+          </div>
+          <div class="col">
+            <h3 class="nuevo">Limpieza de llantas
+              <br>
+              <i class="bi bi-check2"></i>
+              <br>
+            </h3>
+            <p>La limpieza de llantas es esencial para realzar la apariencia del automóvil y garantizar un rendimiento óptimo. Con limpiadores especializados, se eliminan suciedad y residuos, preservando la integridad y el atractivo.</p>
+          </div>
+          <div class="col">
+            <h3 class="nuevo">Limpieza interior
+              <br>
+              <i class="bi bi-brush"></i>
+              <br>
+            </h3>
+            <p>
+              La limpieza interior del coche asegura un ambiente fresco y cómodo. Con aspiración, limpieza de superficies y acondicionamiento, se eliminan manchas y polvo, preservando la apariencia y la comodidad del vehículo.</p>
+          </div>
+          <div class="col">
+            <h3 class="nuevo">Limpieza de motor
+              <br>
+              <i class="bi bi-ev-front-fill"></i>
+              <br>
+            </h3>
+            <p>La limpieza del motor es crucial para eliminar suciedad y grasa, mejorando la eficiencia y prolongando la vida útil del vehículo. Con productos especializados, se mantiene la estética y el rendimiento.
+
+            </p>
+          </div>
+        </div>
+      </div>
+
+        <br>
+
+        <h2>Nuestros trabajadores</h2>
+
+        <div class="container text-center">
+          <div class="row align-items-start">
+            <div class="col">
+              <h4>Técnico en Automoción</h4>
+              <i class="bi bi-person-fill-check"></i>
+              <p class="persona">
+                Joaquín Pérez Escobar
+                <br>
+                45 años
+                <br>
+                <img class="joarquin" src="img/joaquin.jpg" alt="">
+                <p>"Reparación experta, diagnóstico preciso, mantenimiento integral."" <br>"Confíe en nuestro técnico automotriz."</p>
+                
+              </p>
+            </div>
+            <div class="col">
+              <h4>Técnico en Electromecánica</h4>
+              <i class="bi bi-person-workspace"></i>
+              <p class="persona">
+                Javier Lucena Mayoral
+                <br>
+                35 años
+                <br>
+                <img class="javier" src="img/javier.jpg" alt="">
+                <p>"Experto en sistemas eléctricos y mecánicos." <br>"Soluciones precisas y eficientes."</p>
+              </p>
+            </div>
+        </div>
+        
+        <br>
+
+        <!--Aquí empieza mi formulario-->
+
+
+        <h2>Formulario de contacto</h2>
+        
+        <form name="formulario" action="ejecutar-codigo.php" method="post" id="miFormulario">
+        
+          <div class="formulario1">
+              <label for="mitexto">Nombre (obligatorio)</label>
+              <input type="text" id="mitexto" placeholder="Escribe tu nombre" title="Escribe solo en minúsculas y no más de 15 caracteres" pattern="[a-z]{1,15}">
+          </div>
+  
+          <br>
+
+          <div class="formulario1">
+              <label for="telefono">Teléfono (obligatorio)</label>
+              
+              <input type="number" id="telefono" placeholder="Escribe tu teléfono" min="2" max="30">
+          </div>
+  
+          <br>
+
+          <div class="formulario1">
+              <label for="correo">Email (obligatorio)</label>
+              <input type="email" id="correo" placeholder="Escribe tu correo" required>
+    
+              <br>
+
+              <div>
+                <fieldset>
+                    <legend>Carnet de conducir</legend>
+                    <label for="primero">SI</label>
+                    <input type="radio" id="primero" name="carnet">
+    
+                    <br>
+    
+                    <label for="segundo">NO</label>
+                    <input type="radio" id="segundo" name="carnet" checked>
+    
+                    <br>
+                  </fieldset>
+                </div>
+                
+                <div>
+
+                  <fieldset>
+                      <legend>Verificación aceptación de Aviso Legal</legend>
+                      <label for="primero-ck"></label>
+                      <input type="checkbox" name="avisolegal" id="primero-ck" checked>
+                  </fieldset>
+                </div>
+
+                <div>
+                    <label for="observaciones">Comentario</label>
+                    <br>
+                    <textarea name="mensaje" id="observaciones" cols="30" rows="10" maxlength="300" placeholder="Máximo 300 carácteres"></textarea>
+                </div>
+        
+                <br>
+
+              <input type="reset" value="Eliminar">
+
+              <br>
+            
+              <input type="submit" value="Enviar">
+  
+          </div>
+          <br>
+  
+      
+      </form>
+        
+      <br>
+      <!--Aquí empieza el footer-->
+
+      <footer>
+
+        <div class="container text-center">
+          <div class="row align-items-start">
+            <div class="col">
+              <h5 class="otraletra">CONTACTO POR REDES SOCIALES</h5>
+              <div class="tamañoimg">
+              <input type="image" src="img/wathsapp.png" width="40px" height="auto" formaction="https://web.whatsapp.com/" formtarget="_blank">
+              <h6>WhatsApp</h6>
+              <input type="image" src="img/facebook.png" width="35px" height="auto" formaction="https://www.facebook.com/?locale=es_ES" formtarget="_blank">
+              <h6>Facebook</h6>
+            </div>
+            </div>
+            <div class="col">
+              <h5 class="otraletra">COPYRIGHT <i class="bi bi-c-circle"></i></h5>
+              © 2024 [THE KING DETAILING]. Todos los derechos reservados. El contenido de esta página web, incluyendo textos, imágenes y diseño, está protegido por las leyes de copyright.
+            </div>
+            <div class="col">
+              <h5 class="otraletra">FECHA DE CREACIÓN <i class="bi bi-calendar2-date"></i></h5>
+              <p>02 de Febrero de 2024</p>
+              
+            </div>
+          </div>
+
+        </div>
+
+
+
+
+
+      </footer>
+        
+        
+        
+        
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+   </body>
+</html>
