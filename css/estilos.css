@@ -122,6 +122,7 @@ form{
     margin: auto;
     background-image: url(../img/carbono.jpg);
     color: rgba(255, 115, 0, 0.788);
+    text-align: center;
 }
 
 div.formulario1{
