@@ -165,11 +165,16 @@ h5{ margin-top: 0;
 
 }
 
+
 footer{
     background-color: darkorange;
-    
+    width: 100%;
 }
+
 
 h5.otraletra{
     font-family: montserrat;
+}
+div.tamanoimg input{
+    display: inline !important;
 }
