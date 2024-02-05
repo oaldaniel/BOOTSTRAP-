@@ -178,3 +178,11 @@ h5.otraletra{
 div.tamanoimg input{
     display: inline !important;
 }
+
+h6.colorwhatsapp{
+    color: rgb(9, 82, 15);
+}
+
+h6.colorfacebook{
+    color: #3b5998;
+}
