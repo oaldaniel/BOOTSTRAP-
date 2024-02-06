@@ -212,3 +212,8 @@ html {
     font-size: 14px;
     font-family: verdana black;
   }
+
+  div.videonuevo{
+    width: 100% !important;
+    
+  }
