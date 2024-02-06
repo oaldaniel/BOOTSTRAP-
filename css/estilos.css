@@ -15,7 +15,7 @@ nav.bg-body-tertiary {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     transition: transform .6s ease-in-out;
-    height: 460px;
+    height: 560px;
 }
 
 /*cambio en los iconos*/
@@ -201,4 +201,9 @@ html {
   }
     footer {
     margin-top: auto;
+  }
+
+  p.info{
+    text-align: justify;
+    color: black;
   }
