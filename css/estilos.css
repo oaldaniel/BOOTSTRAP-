@@ -203,7 +203,12 @@ html {
     margin-top: auto;
   }
 
-  p.info{
-    text-align: justify;
-    color: black;
+  i.bi-check{
+    color: green;
+  }
+
+  p.trabaja{
+    color: orangered;
+    font-size: 15px;
+    f
   }
